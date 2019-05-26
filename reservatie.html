@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eindopdracht UX</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/fav.png">
+    
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- META -->
+    <meta name="description" content="hotel">
+    <meta name="keywords" content="Hotel for teens">
+    <meta name="author" content="Gillian Peralta Gutierrez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- LINK -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+</head>
+<body>
+	<header class="clearfix">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg" class="logo"></a>
+		</div>
+		<div id="search">
+			<input type="text" placeholder="zoeken naar...">
+			<button class="search"></button>
+			<div class="cart"><a href="#" class="cart"></a></div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Korting</a></li>
+				<li><a href="#">Foto's</a></li>
+				<li><a href="#">Recensies</a></li>
+				<li><a href="#" class="active">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="clearfix">
+		<form action="script.php" method="post" id="form">
+			<table>
+				<tr>
+					<td><label for="voornaam">Voornaam</label></td>
+							<td><input type="text" name="voornaam" id="voornaam" required></td>
+						</tr>
+						<tr>
+							<td><label for="naam">Naam</label></td>
+							<td><input type="text" name="naam" id="naam" required></td>
+						</tr>
+						<tr>
+							<td><label for="email">Email</label></td>
+							<td><input type="email" name="email" id="email" required></td>
+						</tr>
+						<tr>
+							<td><label for="bericht">Bericht</label></td>
+							<td><textarea name="bericht" id="bericht" required cols="40" rows="5"></textarea></td>
+						</tr>
+					<tr>
+						<td colspan="2"><button type="submit">Boek nu</button></td>
+					</tr>
+				</table>
+		</form>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2355.761719210113!2d-3.0528327188430042!3d53.81419731540005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b447101f41f83%3A0x21cb3c13f90b8fbf!2sThe+Calypso+Hotel!5e0!3m2!1snl!2sbe!4v1558879019601!5m2!1snl!2sbe" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</main>
+
+	<footer>
+		<div id="footer_content" class="clearfix">
+			<div class="first">
+				<h4>Klantenservice</h4>
+					<p><a href="#">Veelgestelde vragen</a></p>
+					<p><a href="#">Betaalmethoden</a></p>
+					<p><a href="#">Hotel informatie</a></p>
+					<p><a href="#">Registeren</a></p>
+			</div>
+
+			<div class="second">
+				<h4>CALYPSO</h4>
+					<p><a href="#">Kwaliteit</a></p>
+					<p><a href="#">Kamers</a></p>
+					<p><a href="#">Vacatures</a></p>
+			</div>
+
+			<div class="third">
+				<h4>Voorwaarden</h4>
+					<p><a href="#">Algemene voorwaarden</a></p>
+					<p><a href="#">Privacy Policy</a></p>
+					<p><a href="#">Disclaimer</a></p>
+			</div>
+		</div>
+	</footer>
+	<div class="footer_payment">
+		<img src="images/footer-be-payment.jpg">
+	</div>
+</body>
+</html>
