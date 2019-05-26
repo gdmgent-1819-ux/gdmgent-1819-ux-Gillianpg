@@ -5,8 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eindopdracht UX</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/fav.png">
+    
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- META -->
+    <meta name="description" content="hotel">
+    <meta name="keywords" content="Hotel for teens">
+    <meta name="author" content="Gillian Peralta Gutierrez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- LINK -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/styleguide.css">
+
 </head>
 <body>
+	<header class="clearfix">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg" class="logo"></a>
+		</div>
+		<div id="search">
+			<input type="text" placeholder="zoeken naar...">
+			<button class="search"></button>
+			<div class="cart"><a href="#" class="cart"></a></div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html"  class="active">Home</a></li>
+				<li><a href="#">Korting</a></li>
+				<li><a href="#">Foto's</a></li>
+				<li><a href="#">Recensies</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="banner"></div>
+
+	<main id="home" class="clearfix">
+		<h1>Kamers in promotie!</h1>
+			<div id="products_home">
+				<a href="#">
+					<img src="images/bedroom.jpg" id="bedroom" class="trans">
+				</a>
+
+				<a href="#">
+					<img src="images/bedroom2.jpg" id="bedroom2">
+				</a>
+
+				<a href="#">
+					<img src="images/bedroom3.jpg" id="bedroom3" class="trans">
+				</a>
+			</div>
+
+			<section class="book">
+				<h2>HOTEL ROOMS</h2>
+				<h3>&euro; 50 /Nacht</h3>
+				<div class="button">
+					<a href="reservatie.html">BOEK NU</a>
+				</div>
+			</section>
+	</main>
+
+	<footer>
+		<div id="footer_content" class="clearfix">
+			<div class="first">
+				<h4>Klantenservice</h4>
+					<p><a href="#">Veelgestelde vragen</a></p>
+					<p><a href="#">Betaalmethoden</a></p>
+					<p><a href="#">Hotel informatie</a></p>
+					<p><a href="#">Registeren</a></p>
+			</div>
+
+			<div class="second">
+				<h4>CALYPSO</h4>
+					<p><a href="#">Kwaliteit</a></p>
+					<p><a href="#">Kamers</a></p>
+					<p><a href="#">Vacatures</a></p>
+			</div>
+
+			<div class="third">
+				<h4>Voorwaarden</h4>
+					<p><a href="#">Algemene voorwaarden</a></p>
+					<p><a href="#">Privacy Policy</a></p>
+					<p><a href="#">Disclaimer</a></p>
+			</div>
+		</div>
+	</footer>
+	<div class="footer_payment">
+		<img src="images/footer-be-payment.jpg">
+	</div>
 </body>
 </html>
