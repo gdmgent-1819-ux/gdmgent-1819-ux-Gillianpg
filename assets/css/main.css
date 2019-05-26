@@ -88,7 +88,7 @@
   }
   .search{
     float: left;
-    background-image: url(../../images/search.jpg);
+    background-image: url(../images/search.jpg);
   }
   .cart{
     float: right;
@@ -97,7 +97,7 @@
     height: 37px;
     background-position: center;
     margin-left: 5px;
-    background-image: url(../../images/bed.jpg);
+    background-image: url(../images/bed.jpg);
   }
   
   #search{
@@ -131,7 +131,7 @@
   }
   
   #banner{
-    background-image: url(../../images/banner.jpeg);
+    background-image: url(../images/banner.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;
